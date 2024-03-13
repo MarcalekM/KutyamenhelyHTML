@@ -1,0 +1,51 @@
+body{
+    background-color: #B2D732;
+}
+table{
+    margin-top: 5px;
+    background-color: #2B3409;
+    border: 1px, solid, #2B3409;
+    justify-content: left;
+    width: 100%;
+}
+th {
+    background-color: #4424D6;
+    color: #FC600A;
+}
+tr {
+    color: #4424D6;
+    background-color: #FC600A;
+}
+tr:hover{
+    background-color:  #4424D6;
+    color: #FC600A;
+}
+input{
+    padding: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+footer {
+    background-color: #2B3409;
+    width: 100%;
+}
+
+h1 {
+    color: #FC600A;
+    padding: 0, 50%;
+}
+
+a {
+    text-decoration: none;
+    color: #F7E0D4;
+}
+
+button {
+    background-color: #4424D6;
+    width: 80px;
+    height: 25px;
+}
