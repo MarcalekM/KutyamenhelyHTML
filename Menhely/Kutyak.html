@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myApp">
+<html lang="hu" ng-app="myApp">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Sarkcsillag kutyamenhely</title>
     <!--Stíluslap-->
     <style>
         /*body{
@@ -39,29 +40,33 @@
     </style>
 </head>
 <!--Body-->
-<body ng-controller="myController" >
-    <h1>Kutyáink</h1>
-    <input type="text" ng-model="kereses" placeholder="Keressen rá kutyáinkra">
-    <table>
-        <thead>
-            <tr>
-                <th></th>
-                <th>Név</th>
-                <th>Fajta</th>
-                <th>Életkor</th>
-                <th>Utolsó orvosi ellenőrzés</th>
-            </tr>
-        </thead>
-        <tbody ng-init="index = 0">
-            <tr ng-repeat="kutya in kutyak | filter : kereses">
-                <td>{{$index+1}}</td>
-                <td>{{kutya["név"]}}</td>
-                <td>{{kutya["fajta"]}}</td>
-                <td>{{kutya["életkor"]}}</td>
-                <td>{{kutya["utolsó orvosi ellenőrzés"]}}</td>
-            </tr>
-        </tbody>
-    </table>
+<body ng-controller="myController">
+    <header>
+        <h1>Kutyáink</h1>
+    </header>
+    <main>
+        <input type="text" ng-model="kereses" placeholder="Keressen rá kutyáinkra">
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Név</th>
+                    <th>Fajta</th>
+                    <th>Életkor</th>
+                    <th>Utolsó orvosi ellenőrzés</th>
+                </tr>
+            </thead>
+            <tbody ng-init="index = 0">
+                <tr ng-repeat="kutya in kutyak | filter : kereses">
+                    <td>{{$index+1}}</td>
+                    <td>{{kutya["név"]}}</td>
+                    <td>{{kutya["fajta"]}}</td>
+                    <td>{{kutya["életkor"]}}</td>
+                    <td>{{kutya["utolsó orvosi ellenőrzés"]}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
     <footer>
         <h3>Elérhetőségeink</h3>
     </footer>
