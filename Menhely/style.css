@@ -1,5 +1,6 @@
 body{
-    background-color: #B2D732;
+    background: linear-gradient(to right, #b2d732 0%, #77b301 100%);
+    font-family: sans-serif;
 }
 table{
     margin-top: 5px;
@@ -30,18 +31,29 @@ input{
 }
 
 footer {
-    background-color: #2B3409;
+    background-color: #576815;
     width: 100%;
+    color: #b7ca73;
+
 }
 
 h1 {
-    color: #FC600A;
+    color: #ffd9c4;
     padding: 0, 50%;
+    background-color: #ff7931;
+    padding: 20px;
+    border-radius: 10px;
+    border: 5px dashed #d66324;
 }
 
 h2 {
-    color: #FC600A;
+    color: #ffd8c3;
     padding: 0, 20%;
+    background-color: #ff752a;
+    width: 100%;
+    text-align: center;
+    border-radius: 3px;
+    border: 2px solid #db6423;
 }
 
 a {
@@ -52,8 +64,11 @@ a {
 
 button {
     background-color: #4424D6;
-    width: 58px;
-    height: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
 }
 
 a:hover {
@@ -87,8 +102,8 @@ main {
 img {
     max-width: 250px;
     height: auto;
-    border-radius: 15%;
-    border: 2px solid #4424D6;
+    border-radius: 10%;
+    border: 5px solid #5d44cc;
     display: inline-block;
 
 }
@@ -96,5 +111,9 @@ img {
 p {
     font-size: 20px;
     text-align: justify;
+    background-color: #d5f16d;
+    padding: 10px;
+    border-radius: 10px;
 }
+
 
