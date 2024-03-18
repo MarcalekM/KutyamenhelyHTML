@@ -5,23 +5,26 @@ body{
 }
 table{
     margin-top: 5px;
-    background-color: #2B3409;
-    border: 1px, solid, #2B3409;
+    background-color: #d67345;
+    border: 1px, solid, #ffffff;
     justify-content: left;
     width: 100%;
 }
 th {
     background-color: #4424D6;
     color: #fc770a;
+    font-size: 20px;
+    padding: 5px 0px 5px 0px;
 }
 tr {
     color: #3f2e8f;
     background-color: #fc8849;
+    background: linear-gradient(to right, #f0a567 0%, #fc8849 100%);
     font-weight: bold;
 }
 tr:hover{
     background-color:  #4424D6;
-    color: #fc770a;
+    color: #4f4cff;
 }
 input{
     padding: 8px;
