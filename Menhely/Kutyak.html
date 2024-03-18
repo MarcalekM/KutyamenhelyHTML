@@ -42,7 +42,7 @@
 <!--Body-->
 <body ng-controller="myController">
     <header>
-        <h1>Kutyáink</h1>
+        <h1 id="cimsor">Kutyáink</h1>
     </header>
     <main>
         <input type="text" ng-model="kereses" placeholder="Keressen rá kutyáinkra">
@@ -68,7 +68,23 @@
         </table>
     </main>
     <footer>
-        <h3>Elérhetőségeink</h3>
+        <div class="flexcontainer" id="gap2">
+
+            <h2>Elérhetőségeink:</h2>
+            
+            <h3>Tel: +36202826654</h3>
+                
+            
+            
+                <h3><a href="#" class="fa fa-facebook"></a></h3>
+            
+            
+                <h3><a href="#" class="fa fa-reddit"></a></h3>
+            
+            
+                <h3><a href="#" class="fa fa-youtube"></a></h3>
+            
+        </div>
     </footer>
 
 
