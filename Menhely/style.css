@@ -1,6 +1,7 @@
 body{
-    background: linear-gradient(to right, #b2d732 0%, #77b301 100%);
+    background: linear-gradient(to right, #b5f067 0%, #67a520 100%);
     font-family: sans-serif;
+    margin: 0;
 }
 table{
     margin-top: 5px;
@@ -11,15 +12,16 @@ table{
 }
 th {
     background-color: #4424D6;
-    color: #FC600A;
+    color: #fc770a;
 }
 tr {
-    color: #4424D6;
-    background-color: #FC600A;
+    color: #3f2e8f;
+    background-color: #fc8849;
+    font-weight: bold;
 }
 tr:hover{
     background-color:  #4424D6;
-    color: #FC600A;
+    color: #fc770a;
 }
 input{
     padding: 8px;
@@ -31,13 +33,17 @@ input{
 }
 
 footer {
-    background-color: #576815;
+    background-color: #3d6815;
     width: 100%;
-    color: #b7ca73;
+    color: #aadb82;
+    padding: 1px;
+    padding-left: 20px;
+    margin-top: 10px;
+    border-top: 6px solid #4e7e21;
 
 }
 
-h1 {
+#cimsor {
     color: #ffd9c4;
     padding: 0, 50%;
     background-color: #ff7931;
@@ -46,7 +52,7 @@ h1 {
     border: 5px dashed #d66324;
 }
 
-h2 {
+#cimsorh2 {
     color: #ffd8c3;
     padding: 0, 20%;
     background-color: #ff752a;
@@ -69,15 +75,18 @@ button {
     font-size: 20px;
     border: none;
     border-radius: 5px;
+    border: 3px solid #7963f5;
 }
 
 a:hover {
-    color: #4424D6;
+    font-weight: bold;
 }
 
 button:hover{
-    background-color: #F7E0D4;
-    color: #4424D6;
+    background-color: #7963f5;
+
+    border: 3px solid #4424D6;
+    ;
 }
 
 .container {
@@ -111,9 +120,39 @@ img {
 p {
     font-size: 20px;
     text-align: justify;
-    background-color: #d5f16d;
+    background-color: #d4f16d77;
     padding: 10px;
     border-radius: 10px;
 }
 
+.flexcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    margin-right: 20%;
+    gap: 35px;
+}
 
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
