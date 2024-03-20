@@ -1,7 +1,7 @@
 body {
     display: grid;
     grid-template-columns: 10% 80% 10%;
-    grid-template-rows: 8% 84% 8%;
+    grid-template-rows: auto 1fr auto; /* Adjusted rows */
 }
 
 header {
@@ -17,4 +17,8 @@ main {
 footer {
     grid-column: 1 / 4;
     grid-row: 3;
+    background-color: #3d6815; /* Added background color for visibility */
+    color: #aadb82;
+    padding: 10px 20px; /* Adjusted padding */
+    border-top: 6px solid #4e7e21;
 }

@@ -2,6 +2,8 @@ body{
     background: linear-gradient(to right, #b5f067 0%, #67a520 100%);
     font-family: sans-serif;
     margin: 0;
+    margin-bottom: none;
+    
 }
 table{
     margin-top: 5px;
@@ -35,18 +37,7 @@ input{
     width: 98,8%;
 }
 
-footer {
-    background-color: #3d6815;
-    width: 98,8%;
-    color: #aadb82;
-    padding: 1px;
-    padding-left: 20px;
-    margin-top: 10px;
-    border-top: 6px solid #4e7e21;
-    display: flex;
-    justify-content: center;
 
-}
 
 #cimsor {
     color: #ffd9c4;
@@ -95,7 +86,8 @@ button:hover{
 }
 
 .container {
-    max-width: 80%;
+    width: 100%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -160,4 +152,39 @@ p {
     background: #bb0000;
     color: white;
   }
+
+  footer {
+    background-color: #3d6815;
+    width: 100%;
+    color: #aadb82;
+    padding: 1px;
+    padding-left: 20px;
+    margin-top: 10px;
+    border-top: 6px solid #4e7e21;
+    display: flex;
+    justify-content: center;
+
+}
+.logok{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+.footercontainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
   
+  @media screen and (max-width: 768px) { /* Adjust max-width as needed */
+    
+
+    footer {
+        width: 100%; /* Ensures footer fills the width */
+    }
+
+    .flexcontainer {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        margin-right: 0; /* Remove margin for smaller screens */
+    }
+}
