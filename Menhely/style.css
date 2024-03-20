@@ -43,6 +43,8 @@ footer {
     padding-left: 20px;
     margin-top: 10px;
     border-top: 6px solid #4e7e21;
+    display: flex;
+    justify-content: center;
 
 }
 
